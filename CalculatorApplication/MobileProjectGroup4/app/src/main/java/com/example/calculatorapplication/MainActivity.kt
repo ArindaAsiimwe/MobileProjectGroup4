@@ -66,8 +66,6 @@ class MainActivity : AppCompatActivity() {
             R.id.multiButton -> {op = "*"}
             R.id.plusButton -> {op = "+"}
             R.id.minusButton -> {op = "-"}
-            R.id.buBracketsOpen -> {op = "("}
-            R.id.buBracketsClose -> {op = ")"}
         }
 
         editText.setText(op.toString())
