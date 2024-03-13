@@ -76,12 +76,12 @@ class MainActivity : AppCompatActivity() {
 
     fun equalEvent(view: View) {
         var newNumber = editText.text.toString()
-        var result = 0
+        var result = 0.0
         when(op){
-            "+" -> {result = oldNumber.toInt() + newNumber.toInt()}
-            "-" -> {result = oldNumber.toInt() - newNumber.toInt()}
-            "*" -> {result = oldNumber.toInt() * newNumber.toInt()}
-            "/" -> {result = oldNumber.toInt() / newNumber.toInt()}
+            "+" -> {result = oldNumber.toDouble() + newNumber.toDouble()}
+            "-" -> {result = oldNumber.toDouble() - newNumber.toDouble()}
+            "*" -> {result = oldNumber.toDouble() * newNumber.toDouble()}
+            "/" -> {result = oldNumber.toDouble() / newNumber.toDouble()}
 
 
         }
