@@ -45,26 +45,6 @@
                 android:onClick="clearEvent"
                 ></Button>
             <Button
-                android:id="@+id/buBracketsOpen"
-                android:layout_weight="1"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
-                android:text="("
-                android:textSize="10pt"
-                android:layout_marginRight="2pt"
-                android:onClick="operatorEvent"
-                ></Button>
-            <Button
-                android:id="@+id/buBracketsClose"
-                android:layout_weight="1"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
-                android:text=")"
-                android:textSize="10pt"
-                android:layout_marginRight="2pt"
-                android:onClick="operatorEvent"
-                ></Button>
-            <Button
                 android:id="@+id/divButton"
                 android:layout_weight="1"
                 android:layout_width="30pt"
